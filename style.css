@@ -1,0 +1,70 @@
+body{
+    background-color: #ff6d6d46;
+    margin: 0;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.topo{  
+    padding: 2px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(196, 101, 101, 0.733);
+    background-color: #f1f1f1;
+}
+.topo span{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color:rgb(255, 141, 35);
+}
+.main{
+    padding: 50px 20px;
+  }
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 40px 0px;
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-produto{
+    width: 280px;
+    background-color: #ffffff;
+    border-radius: 4px;    
+    box-shadow: 1px 1px 10px rgba(172, 44, 44, 0.562);
+}
+
+.container-imagem img{
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
+
+.container-info {
+    padding: 0 20px 15px 20px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.container-preco{
+    padding: 10px 20px;
+    display: flex;
+    border-top: solid 1px;
+    border-color:rgba(172, 44, 44, 0.26);
+    justify-content: space-between;
+}
+.container-preco span{
+    margin-top: 10px;
+}
+
+.container-icone {
+    padding: 5px;
+    border: 1px solid rgba(172, 44, 44, 0.26);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+  }
